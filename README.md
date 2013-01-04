@@ -2,11 +2,15 @@
 
 => Start the AVD:
 
+```
 $ emulator -shell -show-kernel -avd HTC-PG762
+```
 
 => Start following the log:
 
+```
 $ adb logcat
+```
 
 => Connect to the emulator so that you can simulate a phone call:
 
@@ -33,4 +37,6 @@ $ ant debug
 
 => Install the packaged app to the emulator:
 
+```
 $ ant debug install
+```
