@@ -1,5 +1,9 @@
 ###### An Android app that pushes the phone number of an incoming call to web app ##########
 
+* To set the URL to which we want to submit the phone number, we need to set the return value of the setIncomingNumber method in src/com/quineloop/NotifyOnCall/NotifyOnCall.java
+
+* Build/Install/Test instructions:
+
 => Start the AVD:
 
 ```
